@@ -1,0 +1,86 @@
+.about__style{
+    padding: 20rem 0 10rem 0;
+}
+
+.top-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about__left{
+    flex: 3;
+}
+
+.about__right {
+    flex: 2;
+}
+
+.about__subheading {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: #fff7e6;
+    font-family: "Montserrat SemiBold";
+}
+
+.about__heading span{
+    font-size: 3.6rem;
+    margin-bottom: 3rem ;
+    font-weight: 900;
+    font-family: "Montserrat SemiBold";
+}
+
+.about__info {
+    margin-bottom: 4rem;
+}
+
+.about__info .para{
+    max-width: 100%;
+}
+
+.about__right {
+    background: rgba(110, 56, 11, 0.329)
+}
+
+.about__right img{
+    opacity: 0.4;
+    border: 2px solid #BCB4B4;
+    border-radius: 10px;
+}
+
+.about__cv__heading{
+    font-size: 3.6rem;
+    text-transform: uppercase;
+}
+
+.about__cv__items {
+    margin-top: 15rem;
+}
+
+.about__cv__item {
+    margin-bottom: 10rem;
+}
+
+@media only screen and (max-width: 768px){
+    .about__style{
+        padding: 10rem 0;
+    }
+
+    .top-section{
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .about__subheading{
+        font-size: 1.8rem;
+    }
+
+    .about__heading span{
+        font-size: 2.8rem;
+    }
+        
+    .about__cv__heading{
+        font-size: 3rem;
+    }
+}
