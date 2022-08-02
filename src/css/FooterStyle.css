@@ -15,18 +15,22 @@
 .footer__col1_header{
     font-size: 3.5rem;
     margin-bottom: 1rem;
+    color: darkorange;
 }
 
 .footer__col2_header{
     margin-bottom: 1rem;
+    color: #fff7e6;
 }
 
 .footer__col3_header{
     margin-bottom: 1rem;
+    color: #fff7e6
 }
 
 .footer__col4_header{
     margin-bottom: 1rem;
+    color: #fff7e6
 }
 
 .footer__col2{
@@ -53,7 +57,7 @@
 
 .footer_Style ul li a{
     text-decoration: none;
-    font-family: 'RobotoMono Regular';
+    font-family: 'sans-serif';
     color: #bcb4b4;
     font-size: 1.8rem;
 }

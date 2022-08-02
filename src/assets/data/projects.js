@@ -1,46 +1,34 @@
 import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
+import TaskManager from '../images/task-manager.png';
+import ChessTic from '../images/chess-tic.png';
+import Hagiografies from '../images/hagiografies.png';
 import CoinTrackerImg from '../images/cointracker.jpg';
-import CavinImg from '../images/cavinimg.jpg';
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    title: 'Chess and TicTacToe',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+      'An application to play Chess & TicTacToe multiplayer. Supports cryptography, password validation & users can take part in tournaments.',
+    img: ChessTic,
+    url: 'https://github.com/AposLaz/Chess-TicTacToe-multiplayer-game'
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
+    title: 'Hagiographies Dimas',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+      'A portfolio for Ilias Dimas. An artist from Grevena city. Owner can login and update gallery. The portfolio is made using HTML5, CSS3, JS, Bootstrap, PHP and MySQL.',
+    img: Hagiografies,
+    url: 'https://github.com/AposLaz/Hagiographies-Website'
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
+    title: 'Task Manager',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
-  },
-  {
-    id: uuidv4(),
-    name: "Cavin's Portfolio",
-    desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
-  },
-  {
-    id: uuidv4(),
-    name: 'Tracking Soft',
-    desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-    img: ProjectImg,
-  },
+      'This app supports jwt authentication, user manages his tasks and save them in mongoDB. Exists API for users and tasks.',
+    img: TaskManager,
+    url: 'https://github.com/AposLaz/task-manager'
+  }
 ];
 
 export default projects;

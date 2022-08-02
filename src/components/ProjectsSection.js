@@ -6,6 +6,7 @@ import ProjectItem from './ProjectItem';
 import SectionTitle from './SectionTitle';
 import 'swiper/swiper-bundle.min.css';
 import projects from '../assets/data/projects';
+import LineSection  from './LineSection'
 
 // install Swiper modules
 SwiperCore.use([Navigation]);
@@ -62,7 +63,9 @@ export default function ProjectsSection() {
   // console.log(projects);
   return (
     <ProjectSectionStyle>
-      <SectionTitle subheading="some of my recent works" heading="Projects" />
+      <LineSection/>  
+      <SectionTitle subheading="some of my recent" heading="Projects" />
+      <LineSection/>
       <div className="container">
         <div className="projects__allItems">
           <Swiper
@@ -90,9 +93,10 @@ export default function ProjectsSection() {
               return (
                 <SwiperSlide key={project.id}>
                   <ProjectItem
-                    title={project.name}
+                    title={project.title}
                     img={project.img}
                     desc={project.desc}
+                    url={project.url}
                   />
                 </SwiperSlide>
               );

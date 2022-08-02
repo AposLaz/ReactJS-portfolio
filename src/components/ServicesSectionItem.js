@@ -7,7 +7,7 @@ const ItemStyles = styled.div`
     .servicesItem__icon{
         svg{
             width: 8rem;
-            fill: ${ (props) => props.color };
+            fill: ${props => props.color };
         }
     }
     .servicesItem__title{
@@ -17,6 +17,7 @@ const ItemStyles = styled.div`
     }
 
     @media only screen and (max-width: 768px) {
+        width: 80px;
         .servicesItem__icon{
             svg{
                 width: 4rem;
@@ -34,7 +35,7 @@ export default function ServicesSectionItem({
     color = 'white',
 }) {
   return (
-    <ItemStyles>
+    <ItemStyles color={color}>
         <div className='servicesItem__icon'>{icon}</div>
             
         <div className='servicesItem__title'>{title}</div>

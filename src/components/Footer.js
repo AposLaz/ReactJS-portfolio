@@ -9,11 +9,14 @@ export default function Footer() {
             <div className='footer__col1'>
                 <h1 className='footer__col1_header'>Apostolos Lazidis</h1>
                 <Ptext>
-                    A freelancer web designer.
-                    You can find him in asdf sdf 
-                    sdfsdf sdfsdff sdf sgds g
-                    sdfsf grthetrty rth rthh t
-                     rth rthtrh rth rthy trh 
+                    <p style={{color: '#bcb4b4'}}>
+                        A freelancer web designer.
+                        You can find him in asdf sdf 
+                        sdfsdf sdfsdff sdf sgds g
+                        sdfsf grthetrty rth rthh t
+                        rth rthtrh rth rthy trh 
+                    </p>
+                    
                 </Ptext>
             </div>
             <div className='footer__col2'>

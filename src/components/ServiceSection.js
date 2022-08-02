@@ -26,7 +26,7 @@ export default function ServiceSection() {
                 title='HTML5' 
                 color='#ff0000'
             />
-            {/* <ServicesSectionItem 
+            <ServicesSectionItem 
                 icon={<FaCss3Alt />} 
                 title='CSS3' 
                 color='blue'
@@ -90,7 +90,7 @@ export default function ServiceSection() {
                 icon={<SiGithub />} 
                 title='GitHub' 
                 color='black'
-            /> */}
+            />
         </div>
     </div>
   )

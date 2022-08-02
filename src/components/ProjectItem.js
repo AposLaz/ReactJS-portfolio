@@ -1,9 +1,9 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
 import projectImg from '../assets/images/projectImg.png'
 import styled from 'styled-components'
 
 const ProjectItemStyle = styled.div` 
+    font-family: 'Montserrat SemiBold';
     .projectItem__img{
         width: 100%;
         height: 400px;
@@ -18,18 +18,19 @@ const ProjectItemStyle = styled.div`
 
     .projectItem__info {
         margin-top: 1rem;
-        background-color: var(--deep-dark);
+        background-color: #1a1a1a;
         padding: 1rem;
         border-radius:12px;
     }
 
     .projectItem__title{
         font-size: 2.2rem;
+        color: darkorange;
     }
 
     .projectItem__desc{
         font-size: 1.6rem;
-        font-family: 'RobotoMono Regular';
+        font-family: 'sans-serif';
         margin-top: 1rem;
     }
 
@@ -40,18 +41,23 @@ const ProjectItemStyle = styled.div`
     }
 ` 
 
-export default function ProjectItem() {
+export default function ProjectItem({
+    title= 'Projects',
+    desc='Happy',
+    img={projectImg},
+    url='/home'
+}) {
   return (
     <ProjectItemStyle>
-        <NavLink to="/projects" className="projectItem__img">
-            <img src={projectImg} alt="project img" />
-        </NavLink>
+        <a href={url} className="projectItem__img" target="_blank" rel='noreferrer'>
+            <img src={img} alt={title} />
+        </a>
         <div className='projectItem__info'>
-            <NavLink to='#'>
-                <h3 className='projectItem__title'>Project 1</h3>
-            </NavLink>
+            <a href={url} target="_blank" rel='noreferrer'>
+                <h3 className='projectItem__title'>{title}</h3>
+            </a>
             <p className='projectItem__desc'>
-                lore sdf jkxcv oweore sdosdf fdvo df oeoeo dfdf sdf
+                {desc}
             </p>
         </div>
     </ProjectItemStyle>
