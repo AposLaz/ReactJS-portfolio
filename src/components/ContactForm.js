@@ -6,10 +6,12 @@ const FormStyle = styled.form`
     .form-group{
         width: 100%;
         margin-bottom: 2rem;
+        font-family: 'sans-serif';
     }
     
     label {
         font-size: 1.8rem;
+        color: #fff7e6;
     }
     
     input,
@@ -32,8 +34,9 @@ const FormStyle = styled.form`
     }
 
     button[type='submit'] {
-        background-color: var(--gray-1);
-        color: var(--black);
+        background-color: darkorange;
+        color: #fff7e6;
+        font-family: 'Montserrat SemiBold';
         font-size: 2rem;
         display: inline-block;
         outline: none;

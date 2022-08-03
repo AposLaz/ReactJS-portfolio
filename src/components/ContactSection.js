@@ -8,14 +8,15 @@ import LineSection from './LineSection'
 export default function ContactSection() {
   return (
     <div className='ContactStyle'>
+            <LineSection/>
+              <div className='contact_title'>
+                <p style={{color: '#bcb4b4'}}>have a project in my mind</p>
+                <h3 className='contactBanner__heading'>Let me help you</h3>
+                <h2>CONTACT NOW</h2>
+              </div>
+            <LineSection/>
         <div className='container'>
-            <LineSection/>
-            <div className='contact_title'>
-            <p style={{color: '#bcb4b4'}}>have a project in my mind</p>
-            <p style={{color: 'var(--gray-1)'}}>Let me help you</p>
-            <h2>CONTACT NOW</h2>
-          </div>
-            <LineSection/>
+            
             <div className='contactSection__wrapper'>
                 <div className='contact__left'>
                     <ContactInfoItem icon={<MdLocalPhone />} text='+30-6979078872' />

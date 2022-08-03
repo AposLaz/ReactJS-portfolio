@@ -10,7 +10,7 @@ export default function HeroSection() {
                 <Col className='hero'>
                     <div className=''>
                         <h1 className='hero__heading' >
-                            <span className='span1'>Hello <br/> My name is</span><br/>
+                            <span className='span1'>Hello, I'm</span><br/>
                             <span className='hero__name'>Apostolos Lazidis</span>
                         </h1>
                         <div className='hero__info' >

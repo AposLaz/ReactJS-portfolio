@@ -15,6 +15,11 @@
     font-size: 2rem;
     margin-top: 1rem;
 }
+
+.contact_title h3 {
+    font-size: 4rem;;
+}
+
 .contact_title h2 {
     font-family: 'Montserrat Bold';
     font-size: 6rem;
@@ -55,6 +60,11 @@
 }
 
 @media only screen and (max-width: 768px){
+    
+    .ContactStyle {
+        padding: 5rem 0;
+    }
+
     .contactSection__wrapper{
         flex-direction: column;
     }
@@ -75,6 +85,11 @@
     .contact_title p,span {
         font-size: 1.2rem;
     }
+
+    .contact_title h3 {
+        font-size: 2rem;;
+    }
+    
     .contact_title h2 {
         font-size: 3.6rem;
     }
