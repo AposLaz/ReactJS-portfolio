@@ -11,7 +11,7 @@ import {DiMysql} from 'react-icons/di'
 
 export default function ServiceSection() {
   return (
-    <div className='service_class'>
+    <div className='service_class' id='services'>
      <LineSection/>
         <div className='service_title'>
           <p>Skills & Tools</p>

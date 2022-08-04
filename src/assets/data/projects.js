@@ -2,7 +2,6 @@ import { v4 as uuidv4 } from 'uuid';
 import TaskManager from '../images/task-manager.png';
 import ChessTic from '../images/chess-tic.png';
 import Hagiografies from '../images/hagiografies.png';
-import CoinTrackerImg from '../images/cointracker.jpg';
 
 const projects = [
   {

@@ -1,6 +1,7 @@
 import React from 'react'
 import Ptext from './Ptext'
 import '../css/FooterStyle.css'
+import {Link} from 'react-scroll'
 
 export default function Footer() {
   return (
@@ -26,16 +27,56 @@ In my free time, I like to practice classical guitar or read books. Finally, I l
                 <h1 className='footer__col2_header'>Important Links</h1>
                 <ul>
                     <li>
-                        <a href='/'>Home</a>
+                        <Link activeClass="active" 
+                            to="home" 
+                            spy={true} 
+                            smooth={true}
+                            duration={1000} 
+                            role="button" 
+                            tabIndex={0}
+                        >Home</Link>
                     </li>
                     <li>
-                        <a href='/about'>About</a>
+                    <Link activeClass="active" 
+                            to="about" 
+                            spy={true} 
+                            smooth={true}
+                            duration={1000} 
+                            role="button" 
+                            tabIndex={0}
+                        >About</Link>
                     </li>
                     <li>
-                        <a href='/projects'>Projects</a>
+                        <Link activeClass="active" 
+                                to="services" 
+                                spy={true} 
+                                smooth={true}
+                                offset={-100}
+
+                                duration={1000} 
+                                role="button" 
+                                tabIndex={0}
+                            >Services</Link>
                     </li>
                     <li>
-                        <a href='/contact'>Contact</a>
+                        <Link activeClass="active" 
+                                to="projects" 
+                                spy={true} 
+                                smooth={true}
+                                duration={1000} 
+                                role="button" 
+                                tabIndex={0}
+                            >Projects</Link>
+                    </li>
+                    <li>
+                        <Link activeClass="active" 
+                                to="contact" 
+                                spy={true} 
+                                smooth={true}
+                                duration={1000} 
+                                role="button" 
+                                tabIndex={0}
+                            >Contact</Link>
                     </li>
                 </ul>
             </div>

@@ -62,7 +62,7 @@ const ProjectSectionStyle = styled.div`
 export default function ProjectsSection() {
   // console.log(projects);
   return (
-    <ProjectSectionStyle>
+    <ProjectSectionStyle id='projects'>
       <LineSection/>  
       <SectionTitle subheading="some of my recent" heading="Projects" />
       <LineSection/>

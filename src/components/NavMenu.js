@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link as NavLink } from 'react-scroll';
 import styled from 'styled-components'
 import { MdMenu,MdClose } from 'react-icons/md';
 
@@ -111,7 +111,11 @@ export default function NavMenu(){
                     <MdClose size={42}/>
                 </div>
                 <li>
-                    <NavLink to="/" 
+                    <NavLink activeClass="active" 
+                        to="home" 
+                        spy={true} 
+                        smooth={true}
+                        duration={1000} 
                         onClick={() => SetShowNav(!showNav)} 
                         role="button" 
                         onKeyDown={() => SetShowNav(!showNav)}
@@ -119,7 +123,12 @@ export default function NavMenu(){
                     >Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/about"
+                    <NavLink activeClass="active" 
+                        to="about" 
+                        spy={true} 
+                        smooth={true}
+                        duration={1000} 
+                        
                         onClick={() => SetShowNav(!showNav)} 
                         role="button" 
                         onKeyDown={() => SetShowNav(!showNav)}
@@ -127,7 +136,25 @@ export default function NavMenu(){
                     >About</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/projects"
+                    <NavLink activeClass="active" 
+                        to="services" 
+                        spy={true} 
+                        smooth={true}
+                        duration={1000}  
+                    
+
+                        onClick={() => SetShowNav(!showNav)} 
+                        role="button" 
+                        onKeyDown={() => SetShowNav(!showNav)}
+                        tabIndex={0}
+                    >Services</NavLink>
+                </li>
+                <li>
+                    <NavLink activeClass="active" 
+                        to="projects" 
+                        spy={true} 
+                        smooth={true}
+                        duration={1000}  
                         onClick={() => SetShowNav(!showNav)} 
                         role="button" 
                         onKeyDown={() => SetShowNav(!showNav)}
@@ -135,7 +162,11 @@ export default function NavMenu(){
                     >Projects</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/contact"
+                    <NavLink activeClass="active" 
+                        to="contact" 
+                        spy={true} 
+                        smooth={true} 
+                        duration={1000}
                         onClick={() => SetShowNav(!showNav)} 
                         role="button" 
                         onKeyDown={() => SetShowNav(!showNav)}

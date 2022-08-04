@@ -6,7 +6,7 @@ import '../css/HeroSectionStyle.css'
 
 export default function HeroSection() {
   return (
-            <Row className='diagonal_hero'>
+            <Row className='diagonal_hero' id='home'>
                 <Col className='hero'>
                     <div className=''>
                         <h1 className='hero__heading' >

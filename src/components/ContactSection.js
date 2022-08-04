@@ -7,7 +7,7 @@ import LineSection from './LineSection'
 
 export default function ContactSection() {
   return (
-    <div className='ContactStyle'>
+    <div className='ContactStyle' id='contact'>
             <LineSection/>
               <div className='contact_title'>
                 <p style={{color: '#bcb4b4'}}>have a project in my mind</p>
