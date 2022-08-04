@@ -51,8 +51,6 @@ In my free time, I like to practice classical guitar or read books. Finally, I l
                                 to="services" 
                                 spy={true} 
                                 smooth={true}
-                                offset={-100}
-
                                 duration={1000} 
                                 role="button" 
                                 tabIndex={0}
