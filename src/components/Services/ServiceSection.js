@@ -1,7 +1,7 @@
 import React from 'react'
-import LineSection from './LineSection'
+import LineSection from '../LineSection'
 import ServicesSectionItem from './ServicesSectionItem'
-import '../css/ServiceSectionStyle.css'
+import '../../css/ServiceSectionStyle.css'
 import {MdMiscellaneousServices, MdPhonelinkSetup} from 'react-icons/md';
 import {FaHtml5,FaCss3Alt,FaReact} from 'react-icons/fa';
 import {SiJavascript,SiPhp,SiNodedotjs,SiMongodb,SiApachekafka,SiRabbitmq,SiDocker,SiGithub} from 'react-icons/si'

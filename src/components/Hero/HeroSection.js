@@ -1,8 +1,8 @@
 import React from 'react'
-import Ptext from './Ptext'
-import Button from './Button'
+import Ptext from '../Ptext'
+import Button from '../Button'
 import { Row, Col } from 'react-bootstrap'
-import '../css/HeroSectionStyle.css' 
+import '../../css/HeroSectionStyle.css' 
 
 export default function HeroSection() {
   return (

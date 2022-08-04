@@ -1,8 +1,8 @@
 import React from 'react'
-import Button from '../components/Button'
-import Ptext from '../components/Ptext'
-import '../css/AboutStyle.css'
-import AboutImg from '../assets/images/about-img.jpg'
+import Button from '../../components/Button'
+import Ptext from '../../components/Ptext'
+import '../../css/AboutStyle.css'
+import AboutImg from '../../assets/images/about-img.jpg'
 
 export default function AboutSection() {
   return (

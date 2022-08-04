@@ -1,9 +1,9 @@
 import React from 'react'
-import '../css/ContactSectionStyle.css'
+import '../../css/ContactSectionStyle.css'
 import ContactInfoItem from './ContactInfoItem'
 import { MdEmail, MdLocalPhone } from 'react-icons/md'
 import ContactForm from './ContactForm'
-import LineSection from './LineSection'
+import LineSection from '../LineSection'
 
 export default function ContactSection() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdPlace } from 'react-icons/md'
 import styled from 'styled-components'
-import Ptext from './Ptext'
+import Ptext from '../Ptext'
 
 const ContactLeftStyle = styled.div`
     padding: 2rem;

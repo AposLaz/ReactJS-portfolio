@@ -1,7 +1,7 @@
 import React from 'react'
-import Button from './Button'
-import Ptext from './Ptext'
-import '../css/ContactBannerStyle.css'
+import Button from '../Button'
+import Ptext from '../Ptext'
+import '../../css/ContactBannerStyle.css'
 import ContactSection from './ContactSection'
 
 export default function ContactBanner() {

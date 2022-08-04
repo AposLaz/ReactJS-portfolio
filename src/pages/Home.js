@@ -1,11 +1,11 @@
 //rfc create a component
 
 import React from 'react'
-import HeroSection from '../components/HeroSection'
-import AboutSection from '../components/AboutSection'
-import ServiceSection from '../components/ServiceSection'
-import ProjectsSection from '../components/ProjectsSection'
-import ContactSection from '../components/ContactSection'
+import HeroSection from '../components/Hero/HeroSection'
+import AboutSection from '../components/About/AboutSection'
+import ServiceSection from '../components/Services/ServiceSection'
+import ProjectsSection from '../components/Projects/ProjectsSection'
+import ContactSection from '../components/Contact/ContactSection'
 
 export default function Home() {
   return (

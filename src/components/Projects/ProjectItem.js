@@ -1,5 +1,5 @@
 import React from 'react'
-import projectImg from '../assets/images/projectImg.png'
+import projectImg from '../../assets/images/projectImg.png'
 import styled from 'styled-components'
 
 const ProjectItemStyle = styled.div` 
