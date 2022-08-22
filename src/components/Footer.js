@@ -93,15 +93,6 @@ In my free time, I like to practice classical guitar or read books. Finally, I l
                 <h1 className='footer__col4_header'>Social Links</h1>
                 <ul>
                     <li>
-<<<<<<< HEAD
-                        <a href='https://www.facebook.com/' target="_blank" rel='noopener noreferrer'>Facebook</a>
-                    </li>
-                    <li>
-                        <a href='https://www.instagram.com/' target="_blank" rel='noopener noreferrer'>Instagram</a>
-                    </li>
-                    <li>
-                        <a href='https://www.linkedin.com/feed/' target="_blank" rel='noopener noreferrer'>LinkedIn</a>
-=======
                         <a href='https://www.facebook.com/' target="_blank" rel='noreferrer'>Facebook</a>
                     </li>
                     <li>
@@ -109,7 +100,6 @@ In my free time, I like to practice classical guitar or read books. Finally, I l
                     </li>
                     <li>
                         <a href='https://www.linkedin.com/feed/' target="_blank" rel='noreferrer'>LinkedIn</a>
->>>>>>> main
                     </li>
                 </ul>
             </div>
