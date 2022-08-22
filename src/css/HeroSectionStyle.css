@@ -1,0 +1,124 @@
+.diagonal_hero{
+    background-image:  url('../assets/images/background-v2-blur-opacity.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.hero {
+
+    height: 80vh;
+    min-height: 600px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero__heading {
+    margin-bottom: -8rem;
+    position: relative;
+}
+
+.span1 {
+    display: inline-block;
+    width: 100%;
+    color:#FFFAF0;
+    font-size: 4rem;
+    font-family: "Montserrat SemiBold";
+}
+
+.span2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    color: darkorange;
+    font-family: "Montserrat SemiBold";
+}
+
+.hero__name {
+    font-size: 7rem;
+    color: darkorange;
+    font-family: "Montserrat SemiBold";
+}
+
+.hero__info {
+    margin-top: 15rem;
+}
+
+.container-1 {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero__social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.hero__social__text > p {
+    font-size: 1.6rem;
+    font-weight: bold;
+    transform: translateY(-20px);
+    letter-spacing: .7rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.hero__social__text ul > li{
+    margin-bottom: 1rem;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.hero__social__text ul > li > a {
+    color: #BCB4B4;
+    font-size: xx-large;
+    font-weight: bold;
+} 
+
+.hero__social__text ul > li > a > span{
+    word-spacing: 10px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        min-height: 750px;
+    }
+    .hero__heading {
+        font-size: 1.4rem;
+        margin-bottom: 5rem;
+    }
+
+    .hero__heading .hero__name{
+        font-size: 4.5rem;
+    }
+
+    .span2{
+        font-size: 2rem;
+    }
+
+    .hero__img {
+        height: 300px;
+    }
+
+    .hero__info {
+        margin-top: 3rem;
+    }
+
+    
+}
+
+
