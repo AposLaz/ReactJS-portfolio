@@ -17,7 +17,11 @@ const GlobalStyles = createGlobalStyle`
   html{
     font-size: 10px;
     font-family: 'Roboto Mono';
+<<<<<<< HEAD
+    /* background-color: var(--dark-bg); */
+=======
     background-color: var(--dark-bg);
+>>>>>>> main
     overflow-y: scroll;
     overflow-x: hidden;
   }
@@ -40,6 +44,8 @@ const GlobalStyles = createGlobalStyle`
     width: 90%;
     margin: 0 auto;
   }
+<<<<<<< HEAD
+=======
 /* Smooth Scroll  */
   // [data-scrollbar] {
   //   height: 100vh;
@@ -56,5 +62,6 @@ const GlobalStyles = createGlobalStyle`
   //     }
   //   }
   // }
+>>>>>>> main
 `;
 export default GlobalStyles;
