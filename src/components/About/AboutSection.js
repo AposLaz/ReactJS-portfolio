@@ -1,6 +1,11 @@
 import React from 'react'
+<<<<<<< HEAD
 import Button from '../Button'
 import Ptext from '../Ptext'
+=======
+import Button from '../../components/Button'
+import Ptext from '../../components/Ptext'
+>>>>>>> main
 import '../../css/AboutStyle.css'
 import AboutImg from '../../assets/images/about-img.jpg'
 

@@ -49,11 +49,19 @@ export default function ProjectItem({
 }) {
   return (
     <ProjectItemStyle>
+<<<<<<< HEAD
         <a href={url} className="projectItem__img" target="_blank" rel='noopener noreferrer'>
             <img src={img} alt={title} />
         </a>
         <div className='projectItem__info'>
             <a href={url} target="_blank" rel='noopener noreferrer'>
+=======
+        <a href={url} className="projectItem__img" target="_blank" rel='noreferrer'>
+            <img src={img} alt={title} />
+        </a>
+        <div className='projectItem__info'>
+            <a href={url} target="_blank" rel='noreferrer'>
+>>>>>>> main
                 <h3 className='projectItem__title'>{title}</h3>
             </a>
             <p className='projectItem__desc'>

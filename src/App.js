@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import React from 'react'
+=======
+>>>>>>> main
 import './App.css';
 import NavMenu from './components/NavMenu';
 import {BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom'
