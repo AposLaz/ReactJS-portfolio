@@ -33,12 +33,10 @@ This project was built using :
 		Install ```node``` and run ```npm install``` 
 		* Run client ```npm start```
 		* Run server ```node server/index.js``` 
-	<br/>
-	or
-	<br/>
-	* Method-2
+	* Method-2:
 		Install Docker :whale2: 
 		* Run ```docker-compose up --build```
+		<br/>
 		Simplier right? :grin:
 
 # Usage Instruction
