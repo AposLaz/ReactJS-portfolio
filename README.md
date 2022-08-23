@@ -34,7 +34,7 @@ This project was built using :
 	$ git remote remove origin  
 	```
 2. Install dependencies 
-	* Using NPM:
+	* Using **NPM**:
 		* Install ```node```
 		* Run ```npm install```  
 		<br/>Now the project is ready to use
@@ -44,8 +44,7 @@ This project was built using :
 	
 		Ready to explore my Portfolio :partying_face:
 	
-	* Method-2:
-		* Using Docker :whale2:
+	* Using **Docker** :whale2: :
 		* if you don't have docker then download it from https://docs.docker.com/
 		* Run ```docker-compose up --build```
 	
