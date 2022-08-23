@@ -25,12 +25,12 @@ This project was built using :
 ## Getting Started
 
 1. Clone repository
-	```
+	```bash
 	$ git clone https://github.com/AposLaz/ReactJS-portfolio.git
 		
 	$ cd reactjs-portfolio
 
-	{::comment} # Remove current origin repo {:/comment}
+	# Remove current origin repo
 	$ git remote remove origin  
 	```
 2. Install dependencies 
