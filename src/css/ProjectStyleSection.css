@@ -1,0 +1,16 @@
+.projectSect {
+    padding: 10rem 0;
+    background-color: aliceblue;
+}
+
+.projects__allItems {
+    display: flex;
+    gap: 4rem;
+    background-color: aquamarine;
+    margin-top: 5rem;
+}
+
+.swiper-container {
+    padding-top: 8rem;
+    max-width: 100%;
+}

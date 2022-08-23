@@ -1,0 +1,42 @@
+.styleCVitems {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.styleCVitems .title{
+    font-size: 2.4rem;
+}
+
+.cvItems {
+    display: flex;
+    gap: 1.5rem;
+    position: absolute;
+    left: 18rem;
+}
+
+.cvItem {
+    background-color: #1E1E1E;
+    padding: 1rem 1rem 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 768px){
+    .styleCVitems {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .cvItems {
+        left: 18rem;
+        position: initial;
+        gap: 1rem;
+    }
+
+    .styleCVitems .title{
+        font-size: 2rem;
+    }    
+
+}
