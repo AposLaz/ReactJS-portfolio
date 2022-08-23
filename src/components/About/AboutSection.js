@@ -28,11 +28,10 @@ export default function AboutSection() {
   const WriteAndDownloadInPDF = (event)=>{
     event.preventDefault();
     Axios({
-      url: 'http://localhost:3000/download/6c31b577e200b84c20d2edb0f737ac9f.pdf',
+      url: 'http://localhost:3000/download/6c9e93f96f261655f5a2dd3b0fbcd236.pdf',
       method: 'GET',
       responseType: 'blob'
     }).then((res)=>{
-
       const url = window.URL.createObjectURL(new Blob([res.data]))
       const link = document.createElement('a')
       link.href = url
