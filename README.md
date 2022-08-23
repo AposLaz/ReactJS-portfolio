@@ -30,7 +30,7 @@ This project was built using :
 		
 	$ cd reactjs-portfolio
 
-	# Remove current origin repo
+	[comment]: # Remove current origin repo
 	$ git remote remove origin  
 	```
 2. Install dependencies 
