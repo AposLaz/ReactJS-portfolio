@@ -2,17 +2,18 @@
 
 This is my personal portfolio. Feel free to modify and change this repo of your own :smiley:.
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)   [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)   [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 
 ## Build With
 
 This project was built using :
 
-* React.js
-* Node.js
-* Express
-* CSS3
-* MongoDB
+* **React.js**
+* **Node.js**
+* **Express**
+* **HTML5**
+* **CSS3**
+* **MongoDB**
 
 ## Features
 
@@ -23,17 +24,32 @@ This project was built using :
 
 ## Getting Started
 
-1. Clone down repository with ```git```
-2. For run application install prerequisites 
-	* Method-1:
-		Install ```node``` and run ```npm install``` 
+1. Clone repository
+	```
+	$ git clone https://github.com/AposLaz/ReactJS-portfolio.git
+		
+	$ cd reactjs-portfolio
+
+	# Remove current origin repo
+	$ git remote remove origin  
+	```
+2. Install dependencies 
+	* Using NPM:
+		* Install ```node```
+		* Run ```npm install```  
+		<br/>Now the project is ready to use
+		
 		* Run client ```npm start```
-		* Run server ```node server/index.js``` 
+		* Run server ```node server/index.js```
+	
+		Ready to explore my Portfolio :partying_face:
+	
 	* Method-2:
-		Install Docker :whale2: 
+		* Using Docker :whale2:
+		* if you don't have docker then download it from https://docs.docker.com/
 		* Run ```docker-compose up --build```
-		<br/>
-		Simplier right? :grin:
+	
+		Application is ready for use. Simplier right? :grin:
 
 # Usage Instruction
 
