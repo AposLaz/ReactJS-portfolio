@@ -1,39 +1,52 @@
-**This is my first Portfolio.**
-	
-	This repository have components that can be reused.
+## Portfolio Website
 
-Main Components:
+This is my personal portfolio. Feel free to modify and change this repo of your own :smiley:.
 
-	|-- App.js
-	   |-- src/
-	        |-- pages/
-	              |-- Home.js
-	                    |-- HeroSection.js	
-			    |-- AboutSection.js
-			    |-- ServiceSection.js
-			    |-- ProjectSection.js
-			    |-- ContactSection.js
-	              |-- About.js
-	              |-- Contact.js
-		      |-- Projects.js
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-Global Components That can used by everyone
-	
-	|-- src/ styles/
-	 
-		 ** Used in all webSite **
-		 
-		 |-- GlobalStyle.js
-		 |-- Typography.js
-		 
-	|-- src/components/
-	         
-		 1) NavMenu.js
-	         2) Ptext.js --> (For text)
-	         3) SectionTitle.js 
-	         4) Button.js
-	         5) ScrollToTop.js --> (For Scrolling in top when change the path of a page)
-	         6) SmoothScrollBar.js --> (Styling the Scroll Bar and using the same effect like **ScrollToTop.js** )
-		        // GlobalStyle.js is styling ScrollBar look at --> /* Smooth Scroll  */ 
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+
+[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+
+## Build With
+
+This project was built using :
+
+* React.js
+* Node.js
+* Express
+* CSS3
+* MongoDB
+
+## Features
+
+1. Smooth Scroll in Components
+2. Download resume in pdf format. For this feature I stored pdf in mongoDB and make HTTP requests with *Axios* for download it.
+3. Styled with Css, React-Bootstrap & React-Icons.
+4. Fully Responsive.
+
+## Getting Started
+
+1. Clone down repository with ```git```
+2. For run application install prerequisites 
+	* Method-1:
+		Install ```node``` and run ```npm install``` 
+		* Run client ```npm start```
+		* Run server ```node server/index.js``` 
+	<br/>
+	or
+	<br/>
+	* Method-2
+		Install Docker :whale2: 
+		* Run ```docker-compose up --build```
+		Simplier right? :grin:
+
+# Usage Instruction
+
+For React components navigate to ```/src/components```. If you want to navigate in backend explore ```/server``` folder. 
+
+
+
+
 
 
